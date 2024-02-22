@@ -29,6 +29,12 @@ const vueLifecycles = singleSpaVue({
   },
 });
 
+
+
 export const bootstrap = vueLifecycles.bootstrap;
 export const mount = vueLifecycles.mount;
 export const unmount = vueLifecycles.unmount;
+
+const routesArr = ['route1', 'route2',]
+
+export const routes = routesArr
